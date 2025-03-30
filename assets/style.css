@@ -21,7 +21,7 @@ html {
 }
 
 #nav {
-
+    display: inline-block;
 }
 
 #nav, .subnav{
@@ -76,6 +76,17 @@ html {
     font-size: 12px;
 }
 
+#header .search-btn{
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    line-height: 46px;
+    padding: 0px 24px;
+}
+
+#header .search-btn:hover{
+    background-color: red;
+}
 #slider{
     min-height: 500px;
 }
