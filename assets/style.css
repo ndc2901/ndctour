@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 77b83db7df5a66ee7fa30d0b57aa5ee956bf922a
 /* Reset CSS */
 *{
     padding: 0;
@@ -17,6 +20,7 @@ html {
 #header{
     height: 46px;
     background-color: #000;
+<<<<<<< HEAD
     position: fixed;
     top: 0;
     left: 0;
@@ -26,6 +30,13 @@ html {
 
 #nav {
     display: inline-block;
+=======
+
+}
+
+#nav {
+
+>>>>>>> 77b83db7df5a66ee7fa30d0b57aa5ee956bf922a
 }
 
 #nav, .subnav{
@@ -80,6 +91,7 @@ html {
     font-size: 12px;
 }
 
+<<<<<<< HEAD
 #header .search-btn{
     float: right;
     color: #fff;
@@ -141,8 +153,20 @@ html {
 #content .about-text{
     margin: 15px 0;
     text-align: justify;
+=======
+#slider{
+    min-height: 500px;
+}
+
+#content{
+    
+>>>>>>> 77b83db7df5a66ee7fa30d0b57aa5ee956bf922a
 }
 
 #footer{
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 77b83db7df5a66ee7fa30d0b57aa5ee956bf922a
