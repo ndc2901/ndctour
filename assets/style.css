@@ -17,7 +17,11 @@ html {
 #header{
     height: 46px;
     background-color: #000;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 #nav {
@@ -88,11 +92,55 @@ html {
     background-color: red;
 }
 #slider{
-    min-height: 500px;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(./img/slider/silder1.jpg) top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#slider .text-description{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 450
 }
 
 #content{
-    
+    max-width: 800px;
+}
+
+#content .content-section{
+    text-align: center;
+    padding: 64px 16px;
+}
+
+#content .section-heading{
+    margin: 10px 0;
+    letter-spacing: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#content .section-slogan{
+    margin: 15px 0;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#content .about-text{
+    margin: 15px 0;
+    text-align: justify;
 }
 
 #footer{
