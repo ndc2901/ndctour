@@ -273,6 +273,20 @@ html {
     color: #000;
     background-color: #b4b4b4;
 }
+
+#content .member-item{
+    
+}
+
+#content .member-name{
+    font-family: "Gidole", sans-serif;
+}
+
+#content .member-image{
+    width: 160px;
+    margin: 15px 45px;
+    border-radius: 8px;
+}
 #footer{
     
 }
