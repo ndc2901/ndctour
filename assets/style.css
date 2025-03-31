@@ -107,7 +107,7 @@ html {
 }
 
 #slider .text-heading{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 4px;
@@ -120,7 +120,7 @@ html {
 }
 
 #content{
-    max-width: 800px;
+
 }
 
 #content .content-section{
@@ -146,7 +146,7 @@ html {
 #content .about-text{
     text-align: justify;
     width: 800px;
-    line-height: 1.5;
+    line-height: 1.5;;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
@@ -155,4 +155,3 @@ html {
 #footer{
     
 }
-
