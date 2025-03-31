@@ -10,6 +10,13 @@ html {
     font-family: "Lato", sans-serif;
 }
 
+.clear{
+    clear: both;
+}
+.text-white{
+    color: #fff !important;
+}
+
 #main{
     
 }
@@ -26,7 +33,7 @@ html {
 
 #nav {
     display: inline-block;
-    font-family: "Winky Sans", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 #nav, .subnav{
@@ -125,11 +132,11 @@ html {
 }
 
 #content .content-section{
-    text-align: center;
     padding: 64px 16px;
 }
 
 #content .section-heading{
+    text-align: center;
     margin: 10px 0;
     letter-spacing: 4px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -137,6 +144,7 @@ html {
 }
 
 #content .section-slogan{
+    text-align: center;
     margin-top: 25px;
     font-style: italic;
     font-size: 15px;
@@ -166,6 +174,112 @@ html {
 
 #content .member-name{
     font-family: "Gidole", sans-serif;
+    text-align: center;
+}
+
+#content .member-image{
+    width: 160px;
+    margin: 15px 45px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Tour section */
+.tour-section{
+    background-color: #000;
+    
+}
+
+.ticket-list{
+    background-color: #fff;
+    margin-top: 40px;
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ticket-list li{
+    font-size: 15px;
+    padding: 12px 16px;
+    list-style-type: none;
+    border-bottom: 1px solid ;
+    color: #757575;
+}
+.ticket-list .sold-out{
+    margin-left: 20px;
+    padding: 8px;
+    background-color: #F44336;
+    color: #fff;
+}
+
+.ticket-list .quantity{
+    float: right;
+    background-color: #F44336;
+    color: #fff;
+    padding: 5px;
+    margin-top: -5px;
+}
+
+/* Place Item */
+.place-list{
+    justify-self: center;
+
+}
+
+.place-item{
+    width: 310px;
+    float: left;
+    padding: 32px;
+    margin-left: -25px;
+    margin-right: -25px;
+    font-family: "Lato", sans-serif;
+
+}
+.place-image{
+    width: 100%;
+    display: block;
+}
+
+.place-image:hover{
+    opacity: 0.7;
+}
+.place-body{
+    background-color: #fff;
+    padding: 16px;
+}
+
+.place-heading{
+    margin-top: 15px;
+}
+
+.place-time{
+    margin-top: 15px;
+    color: #757575;
+}
+
+.place-desc{
+    margin-top: 15px;
+}
+
+.place-buy-btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.place-buy-btn:hover{
+    color: #000;
+    background-color: #b4b4b4;
+}
+
+#content .member-item{
+    
+}
+
+#content .member-name{
+    font-family: "Gidole", sans-serif;
 }
 
 #content .member-image{
@@ -173,7 +287,6 @@ html {
     margin: 15px 45px;
     border-radius: 8px;
 }
-
 #footer{
     
 }
