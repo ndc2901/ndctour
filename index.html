@@ -6,155 +6,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour NDC</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <link rel="stylesheet" href="./assets/font/themify-icons.css">
+    <link rel="stylesheet" href="./assets/responsive.css">
+    <link rel="stylesheet" href="./assets/font/fonts/themify-icons/themify-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1d858160a1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="main">
         <div id="header">
-            <div id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Band</a></li>
-                <li><a href="">Tour</a></li>
-                <li><a href="">Contact</a></li>
+            <!-- Begin: Nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li>
                     <a href="#">
                         More
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
                     <ul class="subnav">
-                        <li><a href="">Merchandise</a></li>
-                        <li><a href="">Extras</a></li>
-                        <li><a href="">Media</a></li>
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
                     </ul>
                 </li>
+            </ul>
+            <!-- End: Nav -->
+
+            <!-- Mobile menu button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
             </div>
 
+            <!-- Search button -->
             <div class="search-btn">
-                <i class="search-icon ti-search"></i>
-            </div>          
+                <input type="text" class="form-search" placeholder="Search">
+                <button type="submit" placeholder class="search-icon ti-search"></button>
+            </div>
         </div>
-
+    
         <div id="slider">
             <div class="text-content">
                 <h2 class="text-heading">Công Lổ</h2>
                 <div class="text-description">Yên Phong Bắc Ninh - Đến là đón</div>
             </div>
         </div>
-        
-        <!-- About section -->
+    
         <div id="content">
-            <div class="content-section">
+            <!-- About section -->
+            <div id="band" class="content-section">
                 <h2 class="section-heading">THE BAND</h2>
-                <p class="section-slogan">Bố mày là nhà vua</p>
-                <p class="about-text">Chúng tôi đã tạo ra một trang web của tổ trinh sát 97 Khương Trung. Lorem rất cà rốt, nhà phát triển đại học cà chua, nhưng tôi sẽ ở trong một bản nhạc, và nỗi đau của một thời gian tuyệt vời. Để tạo ra một sự tha thứ kỳ lạ, người đã thực hiện công việc của Ullamco, ngoại trừ như là sự tiện lợi của hậu quả. Bài tập về nhà hoặc một nỗi đau trong niềm vui bị chỉ trích là một cặp thoát khỏi nỗi đau. Ngoại trừ những người rèm rất háo hức làm, có lỗi khi các dịch vụ từ bỏ linh hồn là nhà phát triển đại học Labors Consectetur, nhưng đưa ra một sự phụ thuộc vào thời điểm đó để làm việc và đau đớn. Để tạo ra một sự tha thứ kỳ lạ, người đã thực hiện công việc của Ullamco, ngoại trừ như là sự tiện lợi của hậu quả.</p>
-                
-                <div class="member-list">
-                    <div class="member-item">
+                <p class="section-sub-heading">Bố mày là nhà vua</p>
+                <p class="about-text">
+                    Chúng tôi đã tạo ra một trang web của tổ trinh sát 97 Khương Trung. Lorem rất cà rốt, nhà phát triển đại học cà chua, nhưng tôi sẽ ở trong một bản nhạc, và nỗi đau của một thời gian tuyệt vời. Để tạo ra một sự tha thứ kỳ lạ, người đã thực hiện công việc của Ullamco, ngoại trừ như là sự tiện lợi của hậu quả. Bài tập về nhà hoặc một nỗi đau trong niềm vui bị chỉ trích là một cặp thoát khỏi nỗi đau. Ngoại trừ những người rèm rất háo hức làm, có lỗi khi các dịch vụ từ bỏ linh hồn là nhà phát triển đại học Labors Consectetur, nhưng đưa ra một sự phụ thuộc vào thời điểm đó để làm việc và đau đớn. Để tạo ra một sự tha thứ kỳ lạ, người đã thực hiện công việc của Ullamco, ngoại trừ như là sự tiện lợi của hậu quả.
+                </p>
+                <div class="row members-list">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Công Cong</p>
-                        <img src="./assets/img/about/band1.jpg" alt="Công Cong" class="member-image">
+                        <img src="./assets/img/about/band1.jpg" alt="Name" class="member-img">
                     </div>
-
-                    <div class="member-item">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name">Công Lổ</p>
-                        <img src="./assets/img/about/band2.jpg" alt="Công Cong" class="member-image">
+                        <img src="./assets/img/about/band2.jpg" alt="Name" class="member-img">
                     </div>
-
-                    <div class="member-item">
+                    <div class="col col-third s-col-full mt-32 text-center">
                         <p class="member-name"># DaiTo</p>
-                        <img src="./assets/img/about/band3.jpg" alt="Công Cong" class="member-image">
+                        <img src="./assets/img/about/band3.jpg" alt="Name" class="member-img">
                     </div>
                 </div>
-                
-
             </div>
-        </div>
 
-        <!-- Tour section -->
-        <div class="tour-section">
-            <div id="content">
+            <!-- Tour section -->
+            <div id="tour" class="tour-section">
                 <div class="content-section">
-                    <h2 class="section-heading text-white">TOUR DATES</h2>
-                    <p class="section-slogan text-white">Remember to book your tickets!</p>
-                    <!-- Ticket list -->
-                    <ul class="ticket-list">
-                        <li>Hà Nội <span class="sold-out">Đã bán hết</span></li>
-                        <li>Kimsa <span class="sold-out">Đã bán hết</span></li>
-                        <li>Mộc Bài <span class="quantity">Còn 4953 vé</span></li>
+                    <h2 class="section-heading text-white">LỊCH TRÌNH</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    
+                    <!-- Tickets -->
+                    <ul class="tickets-list">
+                        <li>20/4/2025 <span class="sold-out">Bán hết</span></li>
+                        <li>20/5/2025 <span class="sold-out">Bán hết</span></li>
+                        <li>20/6/2025 <span class="quantity">4953</span></li>
                     </ul>
-                    <!-- Place -->
-                    <div class=" place-list">
-                        <div class="place-item">
-                            <img src="./assets/img/place/Hanoi.jpg" alt="Hà Nội" class="place-image">
+
+                    <!-- Places -->
+                    <div class="row places-list">
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/place/Hanoi.jpg" alt="Hà Nội" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Hà Nội</h3>
-                                <p class="place-time">20/5/2025</p>
+                                <p class="place-time">20//04/2025</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Đặt vé</button>
+                                <button class="btn s-full-width js-buy-ticket">Đặt vé</button>
                             </div>
                         </div>
-
-                        <div class="place-item">
-                            <img src="./assets/img/place/Kimsa.jpg" alt="Kimsa" class="place-image">
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/place/Kimsa.jpg" alt="Kim Sa" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Kim Sa</h3>
-                                <p class="place-time">20/5/2025</p>
+                                <p class="place-time">20/05/2025</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Đặt vé</button>
+                                <button class="btn s-full-width js-buy-ticket">Đặt vé</button>
                             </div>
                         </div>
-
-                        <div class="place-item">
-                            <img src="./assets/img/place/Mocbai.jpg" alt="Mộc bài" class="place-image">
+                        <div class="col col-third s-col-full mt-16">
+                            <img src="./assets/img/place/Mocbai.jpg" alt="Mộc Bài" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Mộc Bài</h3>
-                                <p class="place-time">20/5/2025</p>
+                                <p class="place-time">20/06/2025</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="place-buy-btn js-buy-ticket">Đặt vé</button>
+                                <button class="btn s-full-width js-buy-ticket">Đặt vé</button>
                             </div>
                         </div>
-                        <div class="clear"></div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Contact section -->
-        <div id="content">
-            <div class="content-section">
+            <!-- Begin: Contact section -->
+            <div id="contact" class="content-section">
                 <h2 class="section-heading">CONTACT</h2>
-                <p class="section-slogan">Fan? Drop a note!</p>
-                <div class="row-contact">
-                    <div class="contact-info">
-                        <p> <i class="icon ti-location-pin">    Bắc Ninh</i></p>
-                        <p> <i class="icon ti-mobile"> +84 354772901</i></p>
-                        <p> <i class="icon ti-email">  ndcong06@gmail.com</i></p>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                
+                <div class="row contact-content">
+                    <div class="col col-half s-col-full contact-info">
+                        <p><i class="fa-solid fa-location-dot"></i>Yên Phong, Bắc Ninh</p>
+                        <p><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/ndcong29" style="text-decoration: none;">Nguyễn Đức Công</a>
+                        <p><i class="fa-solid fa-phone-volume"></i> <a href="tel: +00 151515">+84 354772901</a></p>
+                        <p><i class="fa-solid fa-envelope"></i> <a href="mailto: mail@mail.com">ndcong06@gmail.com</a></p>
                     </div>
-
-                    <div class="col col-large">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col-half">
-                                    <input type="text" name="" placeholder="Name" class="form-control">
-                                    <input type="email" name="" placeholder="Email" class="form-control">
+                                <div class="col col-half s-col-full">
+                                    <input type="text" name="" placeholder="Name" required id="contact-name" class="form-control">
                                 </div>
-                                <div class="col-full">
-                                    <input type="text" name="" placeholder="Message" class="form-control">
-                                </div>
-                                <button class="send" type="submit">SEND</button>
+                                <div class="col col-half s-col-full s-mt-8">
+                                    <input type="email" name="" placeholder="Email" required id="contact-email" class="form-control">
+                                </div> 
                             </div>
-                            
-
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Message" required id="contact-message" class="form-control">
+                                </div>
+                            </div>
+                            <input class="contact-submit-btn btn pull-right mt-16 s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
+            </div>
+            <!-- End: Contact section -->
 
+            <div class="map-section">
+                <img src="./assets/img/place/map.jpeg" alt="Map">
             </div>
         </div>
+    
         <div id="footer">
-
+            <div class="socials-list">
+                <h2 class="footer-heading">
+                    <a href="">Ndc.vn</a>
+                </h2>
+                <p class="menu">
+                    <a href="#">Home</a>
+                    <a href="">Band</a>
+                    <a href="">Tour</a>
+                    <a href="https://www.facebook.com/ndcong29">Contact</a>
+                </p>
+                <a href="https://www.facebook.com/ndcong29"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/congno29/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@congno29"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <p class="copyright">Copyright ©2025 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i><a href="#">Ndc.vn</a></p>
         </div>
     </div>
 
@@ -163,58 +188,96 @@
             <div class="modal-close js-modal-close">
                 <i class="ti-close"></i>
             </div>
-            
+
             <header class="modal-header">
-                <i class="modal-heading-icon ti-bag"></i>
+                <i class="modal-heading-icon fa-solid fa-bag-shopping"></i>
                 Tickets
             </header>
 
             <div class="modal-body">
                 <label for="ticket-quantity" class="modal-label">
                     <i class="ti-shopping-cart"></i>
-                    Đặt vé ngay chỉ với 100$/người
-                    <input id="ticket-quantity" type="text" class="modal-input" placeholder="Nhập số lượng vé">
+                    Tickets, $15 per person
                 </label>
+                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
+
                 <label for="ticket-email" class="modal-label">
                     <i class="ti-user"></i>
-                    Người gửi
-                    <input id="ticket-email" type="email" class="modal-input" placeholder="Enter Email">
+                    Send to
                 </label>
+                <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email...">
 
-                <button id="buy-ticket">
+                <button id="buy-tickets">
                     Pay <i class="ti-check"></i>
                 </button>
             </div>
+
             <footer class="modal-footer">
-                <a href="https://www.facebook.com/messages/e2ee/t/6766871603423227/">Hỗ trợ</a>
+                <p class="modal-help">Need <a href="https://www.facebook.com/ndcong29">help?</a></p>
             </footer>
         </div>
     </div>
 
     <script>
-        const  buyBtns = document.querySelectorAll('.js-buy-ticket');
+        var header = document.getElementById('header');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+
+        // Đóng/mở mobile menu
+        mobileMenu.onclick = function() {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        // Tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (!isParentMenu) {
+                    header.style.height = null;
+                } else {
+                    event.preventDefault();
+                }
+            }
+        }
+    </script>
+
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket');
         const modal = document.querySelector('.js-modal');
-        const modalContainer = document.querySelector('.js-modal-container');
+        const modalContainer = document.querySelector('.js-modal-container')
         const modalClose = document.querySelector('.js-modal-close');
 
+        // Hàm hiển thị modal mua vé (thêm class open vào modal)
         function showBuyTickets() {
             modal.classList.add('open');
-
         }
+
+        // Hàm ẩn modal mua vé (gỡ bỏ class open của modal)
         function hideBuyTickets() {
             modal.classList.remove('open');
         }
 
+        // Lặp qua từng thẻ button và nghe hành vi click
         for (const buyBtn of buyBtns) {
             buyBtn.addEventListener('click', showBuyTickets);
         }
-       
+
+        // Nghe hành vi click vào button close
         modalClose.addEventListener('click', hideBuyTickets);
+
         modal.addEventListener('click', hideBuyTickets);
-        modalContainer.addEventListener('click', function(event) {
+
+        modalContainer.addEventListener('click', function (event) {
             event.stopPropagation();
         });
     </script>
 </body>
 </html>
-
