@@ -200,12 +200,19 @@ html {
     border-radius: 100px;
     padding: 10px;
 }
+
+#header input{
+    color: #fff;
+}
+
+#header input:focus{
+    outline: none;
+}
 #header .search-icon {
     cursor: pointer;
     background-color: transparent;
     border: none;
     color: #fff;
-
 }
 
 #header .mobile-menu-btn:hover {
